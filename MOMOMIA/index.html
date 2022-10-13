@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <!-- Meta Tags -->
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="Momomia"
+      content="Author: Rishika Garg, Illustrator: Font Awesome and Flat Icon, Category: Food Application, Open Source: Yes"
     />
+    <meta
+      name="description"
+      content="Food Ordering Website. The 'MOMOMIA' has been practiced to override the prevalent problems in manual systems. This website is compatible to finalize and, in some cases, reduces the difficulties faced by this existing system. In addition, the system is designed to function smoothly and effectively for the special needs of the company."
+    />
+    <meta name="robots" content="all" />
+    <meta name="googlebot" content="all" />
 
     <title>MOMOMIA</title>
+    <link rel="shortcut icon" href="images/momo-icon.png" type="image/x-icon">
 
     <!-- Google Fonts -->
     <link
@@ -32,16 +42,21 @@
     />
 
     <!-- Custom CSS -->
+    <link href='https://copyfonts.com/fonts/attari-salees.html'></link>
     <link rel="stylesheet" href="./styles.css" />
+    
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-dark fixed-top"
-      style="z-index: 11"
-    >
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="z-index: 11">
       <div class="container">
-        <a class="navbar-brand" href="#">MOMOMIA</a>
+        <!-- Code for Navigation Bar -->
+        <ul class="px-0 mx-0">
+          <img src="./images/navbar-logo.gif" style="height: 100px; width: 100px">
+        </ul>
+        <a class="navbar-brand" href="#" style="font-size :56px">MOMOMIA</a>
+<!--         <a style ="font-size :class="navbar-brand" href="#">MOMOMIA</a> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -57,18 +72,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link px-3" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#categorySection">Categories</a>
+              <a class="nav-link px-4" href="#categorySection">Categories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#healthySection">Hygiene</a>
+              <a class="nav-link px-4" href="#healthySection">Hygiene</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact Us</a>
+              <a class="nav-link px-4" href="#footer">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -77,27 +90,22 @@
 
     <a id="scrollToTop" class="btn"><i class="fas fa-caret-up"></i></a>
 
-    <div
-      class="container"
-      style="height: 100vh; display: flex; justify-content: center"
-    >
+    <div class="container" style="height: 100vh; display: flex; justify-content: center">
       <section id="homeSection" class="d-flex justify-content-center">
         <div class="row homeRow">
           <div class="col-lg-6 homeTxtCol">
             <h1 class="homeHeading">
-              Where the flavor <br />
-              <span><b>INEBRIATES</b></span> <br />
-              <i>YOU</i>
+              Where the Flavor <br />
+              <span><b>INEBRIATES</b></span> <br/>
+              you
             </h1>
             <br />
             <div class="homeBtnDiv">
-              <a href="#categorySection" class="btn btn-light homeBtn"
-                >Order Now</a
-              >
+              <a href="#categorySection" class="btn homeBtn">Order Now</a>
             </div>
           </div>
           <div class="col-lg-6 homeImgCol">
-            <img class="homeImg" src="./images/momomi.png" alt="momos" />
+            <img class="homeImg" src="./images/momoss.png" alt="momos" />
           </div>
         </div>
       </section>
@@ -110,11 +118,12 @@
         <h1 style="text-align: center; margin: 50px auto">
           <span
             style="
-              font-size: 3rem;
+              font-size: 5rem;
               border: 1px solid #a8763e;
               background-color: white;
               color: #6f1a07;
               padding: 1px 5px;
+              font-family: 'Roboto';
             "
             ><b>CATEGORIES</b></span
           >
@@ -123,11 +132,7 @@
           <div class="col-lg-4 col-sm-4 col-4">
             <div class="product-box-layout4 momos">
               <div class="item-figure">
-                <img
-                  src="./images/momos.jpg"
-                  alt="Category"
-                  style="width: 100%; height: 100%"
-                />
+                <img src="./images/momos.jpg" alt="Category" style="width: 100%; height: 100%" />
               </div>
               <div class="item-content">
                 <h2 class="card-title">Momos</h2>
@@ -138,11 +143,7 @@
           <div class="col-lg-4 col-sm-4 col-4">
             <div class="product-box-layout4 chinese">
               <div class="item-figure">
-                <img
-                  src="./images/chinese.jpg"
-                  alt="Category"
-                  style="width: 100%; height: 100%"
-                />
+                <img src="./images/chinese.jpg" alt="Category" style="width: 100%; height: 100%" />
               </div>
               <div class="item-content">
                 <h2 class="card-title">Chinese</h2>
@@ -153,11 +154,7 @@
           <div class="col-lg-4 col-sm-4 col-4">
             <div class="product-box-layout4 beverages">
               <div class="item-figure">
-                <img
-                  src="./images/beverages.jpg"
-                  alt="Category"
-                  style="width: 100%; height: 100%"
-                />
+                <img src="./images/beverages.jpg" alt="Category" style="width: 100%; height: 100%" />
               </div>
               <div class="item-content">
                 <h2 class="card-title">Beverages</h2>
@@ -166,7 +163,7 @@
           </div>
         </div>
 
-        <!-- Menu -->
+        <!-- Menu starts here-->
         <div class="menuDiv">
           <!-- Modal -->
           <div
@@ -181,12 +178,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
@@ -194,21 +186,15 @@
                   <div class="container-fluid">
                     <div class="row paymentInfoRow">
                       <div class="col paymentInfo">
-                        <span class="checkIcon" style="color: green"
-                          ><i class="fas fa-check-circle"></i
-                        ></span>
+                        <span class="checkIcon" style="color: green"><i class="fas fa-check-circle"></i></span>
                         Select Menu
                       </div>
                       <div class="col paymentInfo">
-                        <span class="checkIcon"
-                          ><i class="fas fa-check-circle"></i
-                        ></span>
+                        <span class="checkIcon"><i class="fas fa-check-circle"></i></span>
                         Place order via Whatsapp
                       </div>
                       <div class="col paymentInfo">
-                        <span class="checkIcon"
-                          ><i class="fas fa-check-circle"></i
-                        ></span>
+                        <span class="checkIcon"><i class="fas fa-check-circle"></i></span>
                         Pay using Google Pay.
                       </div>
                     </div>
@@ -222,19 +208,11 @@
                     <div class="userInfoDiv">
                       <div class="mb-3">
                         <label for="address">Address *</label> <br />
-                        <textarea
-                          type="text"
-                          class="form-control"
-                          id="address"
-                        ></textarea>
+                        <textarea type="text" class="form-control" id="address"></textarea>
                       </div>
                       <div class="mb-3">
                         <label for="note">Note (optional)</label> <br />
-                        <textarea
-                          type="text"
-                          class="form-control"
-                          id="note"
-                        ></textarea>
+                        <textarea type="text" class="form-control" id="note"></textarea>
                       </div>
                     </div>
 
@@ -242,19 +220,9 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    onclick="location.reload()"
-                  >
-                    Clear Cart
-                  </button>
-                  <a href="tel:+919871198882" class="btn btn-secondary"
-                    >Call Us</a
-                  >
-                  <a class="btn btn-primary" onclick="openWhatsapp()">
-                    Order Now
-                  </a>
+                  <button type="button" class="btn btn-secondary" onclick="location.reload()">Clear Cart</button>
+                  <a href="tel:+91xxxxxxxxxx" class="btn btn-secondary">Call Us</a>
+                  <a class="btn btn-primary" onclick="openWhatsapp()"> Order Now </a>
                 </div>
               </div>
             </div>
@@ -266,11 +234,7 @@
                 <h1>Momos</h1>
               </div>
               <!-- Button trigger modal -->
-              <span
-                class="shoppingCart"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <span class="shoppingCart" data-toggle="modal" data-target="#exampleModal">
                 <i class="fas fa-shopping-cart"></i>
                 <span class="shoppingCartAfter">0</span>
               </span>
@@ -285,25 +249,15 @@
                         <p>
                           Veggie Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>80
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>80</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -313,25 +267,15 @@
                         <p>
                           Paneer Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>90
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>90</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -341,25 +285,15 @@
                         <p>
                           Mushroom Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>115
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>115</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -369,25 +303,15 @@
                         <p>
                           Corn and Cheese Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>130
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>130</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -397,25 +321,15 @@
                         <p>
                           Chicken Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>90
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>90</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -425,25 +339,15 @@
                         <p>
                           Chicken Schezwan Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>130
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>130</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -453,25 +357,15 @@
                         <p>
                           Chicken and Cheese Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>140
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>140</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -481,25 +375,15 @@
                         <p>
                           Fish Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>130
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>130</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                   </div>
@@ -515,25 +399,15 @@
                         <p>
                           Veggie Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>125
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>125</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -543,25 +417,15 @@
                         <p>
                           Paneer Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>135
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>135</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -571,25 +435,15 @@
                         <p>
                           Mushroom Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>145
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>145</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -599,25 +453,15 @@
                         <p>
                           Corn Cheese Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>160
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>160</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -627,25 +471,15 @@
                         <p>
                           Chicken Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>135
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>135</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -655,25 +489,15 @@
                         <p>
                           Chicken Schezwan Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>155
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>155</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -683,25 +507,15 @@
                         <p>
                           Chicken Cheese Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>170
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>170</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -711,25 +525,15 @@
                         <p>
                           Fish Fried Momo
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>155
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>155</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                   </div>
@@ -738,12 +542,7 @@
             </div>
 
             <div class="row checkOutRow">
-              <button
-                type="button"
-                class="btn knowMoreBtn"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <button type="button" class="btn knowMoreBtn" data-toggle="modal" data-target="#exampleModal">
                 Check Out
               </button>
             </div>
@@ -755,11 +554,7 @@
                 <h1>Chinese</h1>
               </div>
               <!-- Button trigger modal -->
-              <span
-                class="shoppingCart"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <span class="shoppingCart" data-toggle="modal" data-target="#exampleModal">
                 <i class="fas fa-shopping-cart"></i>
                 <span class="shoppingCartAfter">0</span>
               </span>
@@ -774,25 +569,15 @@
                         <p>
                           Veg Hakka Noodles
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>200
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>200</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -802,25 +587,15 @@
                         <p>
                           Chilli Garlic Noodles
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>210
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>210</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -829,25 +604,15 @@
                       <div class="col-9 foodItemName">
                         <p>
                           Steamed Rice<span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>190
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>190</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -857,25 +622,15 @@
                         <p>
                           Corn Fried Rice
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>230
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>230</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -885,25 +640,15 @@
                         <p>
                           Chicken Hakka Noodles
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>220
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>220</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -913,25 +658,15 @@
                         <p>
                           Chicken Garlic Noodles
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>230
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>230</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -941,25 +676,15 @@
                         <p>
                           Chicken Fried Rice
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>230
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>230</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -969,25 +694,15 @@
                         <p>
                           Mix Meat Fried Rice
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>300
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>300</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                   </div>
@@ -1002,25 +717,15 @@
                       <div class="col-9 foodItemName">
                         <p>
                           Chilli Potato<span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>250
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>250</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1030,25 +735,15 @@
                         <p>
                           Veg Spring Roll
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>270
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>270</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1058,25 +753,15 @@
                         <p>
                           Chilli Paneer
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>280
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>280</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1086,25 +771,15 @@
                         <p>
                           Chicken Spring Roll
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>300
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>300</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1113,28 +788,67 @@
                       <div class="col-9 foodItemName">
                         <p>
                           Crispy Honey Chicken<span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>350
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>350</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Cantonese Spring Rolls<span>
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
+                          </span>
+                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>400</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Baked Chicken Wings<span>
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
+                          </span>
+                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>420</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Crab Rangoon<span>
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
+                          </span>
+                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>540</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
 
                     <div class="row foodItem"></div>
                   </div>
@@ -1149,25 +863,15 @@
                       <div class="col-9 foodItemName">
                         <p>
                           Veg Garlic Sauce<span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>350
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>350</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1177,25 +881,15 @@
                         <p>
                           Veg Garlic Sauce
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>350
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>350</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1205,25 +899,15 @@
                         <p>
                           Potato Garlic Sauce
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>350
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>350</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1233,25 +917,15 @@
                         <p>
                           Mixed Vegetable Sauce
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>370
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>370</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1260,25 +934,66 @@
                       <div class="col-9 foodItemName">
                         <p>
                           Stir Fried Asian Green<span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>370
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>370</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Burnt Garlic Rice
+                          <span>
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
+                          </span>
+                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>395</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Creamy Noodles
+                          <span>
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
+                          </span>
+                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>250</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Shredded Chicken
+                          <span>
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
+                          </span>
+                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>640</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                   </div>
@@ -1287,12 +1002,7 @@
             </div>
 
             <div class="row checkOutRow">
-              <button
-                type="button"
-                class="btn knowMoreBtn"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <button type="button" class="btn knowMoreBtn" data-toggle="modal" data-target="#exampleModal">
                 Check Out
               </button>
             </div>
@@ -1304,11 +1014,7 @@
                 <h1>Beverages</h1>
               </div>
               <!-- Button trigger modal -->
-              <span
-                class="shoppingCart"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <span class="shoppingCart" data-toggle="modal" data-target="#exampleModal">
                 <i class="fas fa-shopping-cart"></i>
                 <span class="shoppingCartAfter">0</span>
               </span>
@@ -1323,25 +1029,15 @@
                         <p>
                           Veg Manchow
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>150
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>150</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1351,25 +1047,15 @@
                         <p>
                           Sweet Corn
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>150
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>150</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1378,25 +1064,15 @@
                       <div class="col-9 foodItemName">
                         <p>
                           Hot 'N' Sour<span>
-                            <img
-                              class="vegIcon"
-                              src="./images/veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>150
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>150</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1406,25 +1082,15 @@
                         <p>
                           Chicken Manchow
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>170
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>170</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1434,25 +1100,15 @@
                         <p>
                           Chicken Sweet Corn
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>170
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>170</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1462,25 +1118,15 @@
                         <p>
                           Chicken Hot 'N' Sour
                           <span>
-                            <img
-                              class="vegIcon"
-                              src="./images/non-veg.jpg"
-                              alt=""
-                            />
+                            <img class="vegIcon" src="./images/non-veg.jpg" alt="" />
                           </span>
                         </p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>170
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>170</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                   </div>
@@ -1494,18 +1140,12 @@
                     <div class="row foodItem">
                       <div class="col-9 foodItemName">
                         <p>Midnight Beauty</p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>120
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>120</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1513,18 +1153,12 @@
                     <div class="row foodItem">
                       <div class="col-9 foodItemName">
                         <p>Mojito</p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>150
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>150</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1532,18 +1166,12 @@
                     <div class="row foodItem">
                       <div class="col-9 foodItemName">
                         <p>Pink Lemonade</p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>140
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>140</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1551,18 +1179,12 @@
                     <div class="row foodItem">
                       <div class="col-9 foodItemName">
                         <p>Silver Lining</p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>140
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>140</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                     <hr class="foodItemHr" />
@@ -1570,18 +1192,24 @@
                     <div class="row foodItem">
                       <div class="col-9 foodItemName">
                         <p>Sweet Memories</p>
-                        <p class="text-muted-small">
-                          <i class="fas fa-rupee-sign"></i>150
-                        </p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>150</p>
                       </div>
                       <div class="col-3 addCol">
-                        <span class="menuBtn minus"
-                          ><i class="fas fa-minus"></i
-                        ></span>
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
                         <span class="quantity">0</span>
-                        <span class="menuBtn plus"
-                          ><i class="fas fa-plus"></i
-                        ></span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Virgin Mojito</p>
+                        <p class="text-muted-small"><i class="fas fa-rupee-sign"></i>230</p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"><i class="fas fa-minus"></i></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"><i class="fas fa-plus"></i></span>
                       </div>
                     </div>
                   </div>
@@ -1590,12 +1218,7 @@
             </div>
 
             <div class="row checkOutRow">
-              <button
-                type="button"
-                class="btn knowMoreBtn"
-                data-toggle="modal"
-                data-target="#exampleModal"
-              >
+              <button type="button" class="btn knowMoreBtn" data-toggle="modal" data-target="#exampleModal">
                 Check Out
               </button>
             </div>
@@ -1607,23 +1230,25 @@
     <section id="healthySection">
       <h1 style="text-align: center; margin: 50px auto">
         <span
+
+          style="font-size: 5rem; border: 1px solid #a8763e; background-color: white; color: #a8763e; padding: 1px 5px"
+
           style="
-            font-size: 3rem;
+            font-size: 4.5rem;
             border: 1px solid #a8763e;
             background-color: white;
             color: #a8763e;
             padding: 1px 5px;
+            font-family: 'Roboto';
           "
+
           ><b>HYGIENE</b></span
         >
       </h1>
       <div class="eatSure container">
         <div class="row">
           <div class="col-sm-2 col-12">
-            <img
-              src="https://assets.faasos.io/ovenstory-react.in/production/eat-sure-mobile.png"
-              alt=""
-            />
+            <img src="https://assets.faasos.io/ovenstory-react.in/production/eat-sure-mobile.png" alt="" />
           </div>
 
           <div class="col-sm-2 col-6 borderLeft">
@@ -1723,12 +1348,7 @@
           </div>
 
           <div class="col-sm-2 col-12 borderLeft">
-            <a
-              href="https://eatsure.com/"
-              target="_blank"
-              class="btn knowMoreBtn"
-              >Know More</a
-            >
+            <a href="https://eatsure.com/" target="_blank" class="btn knowMoreBtn">Know More</a>
           </div>
         </div>
       </div>
@@ -1741,21 +1361,12 @@
         </p>
         <div class="row safetyMeasures">
           <div class="col-sm-3 col-6">
-            <img
-              src="./svg/mask.svg"
-              alt="Our Kitchen executives have been instructed to wear masks at all times."
-            />
-            <p>
-              Our Kitchen executives have been instructed to wear masks at all
-              times.
-            </p>
+            <img src="./svg/mask.svg" alt="Our Kitchen executives have been instructed to wear masks at all times." />
+            <p>Our Kitchen executives have been instructed to wear masks at all times.</p>
           </div>
 
           <div class="col-sm-3 col-6">
-            <img
-              src="./svg/thermo.svg"
-              alt="A daily log of our executives’ body temperatures is being maintained."
-            />
+            <img src="./svg/thermo.svg" alt="A daily log of our executives’ body temperatures is being maintained." />
             <p>
               A daily log of our executives’ body temperatures is being <br />
               maintained.
@@ -1763,10 +1374,7 @@
           </div>
 
           <div class="col-sm-3 col-6">
-            <img
-              src="./svg/sanitizer.svg"
-              alt="Every kitchen executive sanitizes his/her hands every hour."
-            />
+            <img src="./svg/sanitizer.svg" alt="Every kitchen executive sanitizes his/her hands every hour." />
             <p>
               Every kitchen executive sanitizes his/her hands every hour.
               <br /><br />
@@ -1778,45 +1386,44 @@
               src="./svg/clean.svg"
               alt="Every kitchen surface is rigorously cleaned to ensure a clean and sanitized workstation."
             />
-            <p>
-              Every kitchen surface is rigorously cleaned to ensure a clean and
-              sanitized workstation.
-            </p>
+            <p>Every kitchen surface is rigorously cleaned to ensure a clean and sanitized workstation.</p>
           </div>
         </div>
       </div>
     </section>
-
+    
+    <!-- Footer starts here -->
+    
     <footer id="footer">
       <div class="container">
         <div class="row">
           <div class="col-9 footerHeadingCol">
-            <h2
-              style="font-family: 'Roboto, cursive; font-weight: 600; font-size: 3rem;"
-            >
-              MOMOMIA
-            </h2>
+            <h2 style="font-family: 'Roboto', cursive; font-weight: 600; font-size: 3rem;">MOMOMIA</h2>
           </div>
 
           <div class="col-3 socialMedia">
-            <a href="#">
-              <span class="socialMediaIcon"
-                ><i class="fab fa-facebook-f"></i></span
+            <a href="#" class="socialMediaIcon">
+              <span><i class="fab fa-facebook-f"></i></span
             ></a>
-            <a href="#">
-              <span class="socialMediaIcon"><i class="fab fa-twitter"></i></span
+            <a href="#" class="socialMediaIcon">
+              <span><i class="fab fa-twitter"></i></span
             ></a>
-            <a href="#">
-              <span class="socialMediaIcon"
-                ><i class="fab fa-instagram"></i></span
+            <a href="#" class="socialMediaIcon">
+              <span><i class="fab fa-instagram"></i></span
+            ></a>
+            <a href="https://www.linkedin.com/in/rishika-garg05/" target="_blank" class="socialMediaIcon">
+              <span><i class="fab fa-linkedin"></i></span
             ></a>
           </div>
         </div>
 
         <div class="row contactRow">
           <p>
-            <a href="#">Policies</a> | <a href="#">Terms of Service</a> |
-            <a href="tel:+919871198882">Contact Us</a>
+            <a class="footer_clickable" href="#">Policies</a> |
+            <a class="footer_clickable" href="./terms_of_service.html">Terms of Service</a> |
+            <!-- <a class="footer_clickable" href="tel:+919871198882">Contact Us</a> -->
+            <a class="footer_clickable" href="./contactus.html">Contact Us</a>
+
           </p>
         </div>
 
@@ -1825,6 +1432,8 @@
         </div>
       </div>
     </footer>
+
+
 
     <!-- Bootstrap JS -->
     <script
